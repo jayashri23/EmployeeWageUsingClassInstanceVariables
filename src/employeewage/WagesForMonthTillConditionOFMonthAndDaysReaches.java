@@ -1,0 +1,2 @@
+package employeewage;public class CalculatingWagesForMonthTillConditionOFMonthAndDaysReaches {
+}
