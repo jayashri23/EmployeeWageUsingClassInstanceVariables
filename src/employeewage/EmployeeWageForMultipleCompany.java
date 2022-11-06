@@ -14,6 +14,7 @@ public class EmployeeWageForMultipleCompany {
             switch (check){
                 case 1 :
                     System.out.println("fullTime");
+
                     empHrs=4;
                 break;
                 case 2 :
