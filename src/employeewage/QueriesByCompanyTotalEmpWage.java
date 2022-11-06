@@ -26,19 +26,15 @@ public class QueriesByCompanyTotalEmpWage {
             int check=rand.nextInt(3);
             switch (check){
                 case 1:
-                    System.out.println("PartTime");
                     empHrs=4;
                     break;
                 case 2:
-                    System.out.println("fullTime");
                     empHrs=8;
                     break;
                 default:
-                    System.out.println("Absent");
                     empHrs=0;
             }
             totalEmpHours=totalEmpHours+empHrs;
-            System.out.println("Day:"+totalWorkingDays+ "Emp Hr:"  +totalEmpHours);
         }
         totalEmpWage=totalEmpHours*empRatePerHours;
     }
